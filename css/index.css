@@ -1,0 +1,121 @@
+                                                                 /* RICORDARSI CHE DEVE SEMPRE ESSERCI FONT SIZE E FONT FAMILY PERCHE FUNZIONI*/
+body{
+  /*height: 800px;*/
+    /*margin: 30px;*/
+    background-color: lightgrey;
+    margin: 0px;
+    
+    
+   
+  
+  
+}
+
+.primo_div{
+  background-color:#14213d ;
+  height: 200px;
+  margin-bottom: 2px;
+  color: #fca311;
+  width: 100%;
+  font-size: 30px;
+  text-shadow: 
+        -1px -1px 1px white,  
+         1px -1px 1px white,
+        -1px  1px 1px white,
+         1px  1px 1px black;
+  font-family: 'Times New Roman', serif;
+  
+   min-height: 200px;
+  /*margin: 0 auto;                                                                            /* se lo volessi al centro margin 0 auto */
+  /*margin-left: auto;*/   
+   display: inline-block;  
+   color: #fca311; 
+   line-height: 100px
+}
+.secondodiv{
+  border: solid 3px black;
+  background-color:#fca311 ;
+  margin: 30px;
+         /*esempio di unità in percentuale*/
+  min-width: 500px;
+  height: 1400px;
+  white-space: pre-wrap;
+  text-align: justify;
+  padding: 5px;
+ /* font-size: large;*/
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  
+  
+}
+
+h1{
+  text-align: center;
+}
+span{
+  font-weight: bold;
+}
+
+.div_2{
+  font-weight: bold;
+  font-family:  Verdana, sans-serif;
+}
+
+.div_terzo {
+  margin-top: 4px;
+   
+}
+
+ 
+
+
+ul li {
+ 
+  margin-left: 40px;
+  border: 0;
+}
+
+
+
+
+ul{
+  list-style-image: url("../../Assets/img/icons8-pianeta-30.png");
+}
+#card-conteiner{
+  border: 3px solid black;
+  color: black;
+  width: calc( 28% - 20px);
+  display: inline-block;
+  text-align: center;
+  margin: 40px;
+  
+
+  
+}
+
+#card-body{
+  background-color:;
+  color: black;
+  font-size: 16px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid;
+  padding: 50px
+  
+}
+#card-footer{
+  background-color: ;
+  padding: 5px;
+  color: black;
+  font-size: large;
+}
+
+.pie_dipagina{
+  background-color:#fca311 ;
+  height: 150px;
+  margin-bottom: 5px;
+  color: black;
+  width: 100%;
+  font-size: 20px;
+  padding: 50px;
+}
